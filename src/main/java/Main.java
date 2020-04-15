@@ -1,5 +1,5 @@
 
-import stat.Place;
+import model.Place;
 
 import java.io.File;
 import java.io.IOException;

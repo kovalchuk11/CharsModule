@@ -1,4 +1,4 @@
-package stat;
+package model;
 
 public class Place {
     private int id;
