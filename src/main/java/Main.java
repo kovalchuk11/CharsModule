@@ -21,12 +21,12 @@ public class Main {
 
         RequestCreator requestCreator = new RequestCreator();
 
-        JsonCreatorV3 jsonCreatorV3 = new JsonCreatorV3();
+        JsonCreator jsonCreator = new JsonCreator();
 
 
         File file = null;
         try {
-            file = requestCreator.sendRequest(jsonCreatorV3.createJson(placesStat), placesStat.get(0).getPlaceName() + ".png");
+            file = requestCreator.sendRequest(jsonCreator.createJson(placesStat), placesStat.get(0).getPlaceName() + ".png");
         } catch (IOException e) {
             e.printStackTrace();
         }

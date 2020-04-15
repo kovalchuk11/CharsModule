@@ -11,7 +11,7 @@ import stat.Place;
 
 import java.util.List;
 
-public class JsonCreatorV3 {
+public class JsonCreator {
     private static final String FORMAT_TYPE = "png";
     private static final String SICK_LABEL = "Хворих";
     private static final String DEAD_LABEL = "Смертей";
